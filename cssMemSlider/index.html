@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/img/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Mem Slider</title>
+</head>
+
+<body>
+  <h1>CSS Mem Slider</h1>
+  <div class="wrapper">
+    <div class="slider">
+      <input class="slider__input" id="slide0" type="radio" name="switch" checked>
+      <input class="slider__input" id="slide1" type="radio" name="switch">
+      <input class="slider__input" id="slide2" type="radio" name="switch">
+      <input class="slider__input" id="slide3" type="radio" name="switch">
+      <div class="slider__slides">
+        <div class="slider__slide">
+          <img class="slider__image" src="./assets/img/m0.jpg" alt="Я пишу код на JavaScript">
+        </div>
+        <div class="slider__slide">
+          <img class="slider__image" src="./assets/img/m1.jpg" alt="А и правда...">
+        </div>
+        <div class="slider__slide">
+          <img class="slider__image" src="./assets/img/m2.jpg" alt="Разница протоколов наглядно">
+        </div>
+        <div class="slider__slide">
+          <img class="slider__image" src="./assets/img/m3.jpg" alt="Сложность выбора">
+        </div>
+      </div>
+      <div class="slider__bottom">
+        <div class="slider__cont">
+          <div class="slider__texts">
+            <div class="slider__text">Я пишу код на JavaScript</div>
+            <div class="slider__text">А и правда...</div>
+            <div class="slider__text">Разница протоколов наглядно</div>
+            <div class="slider__text">Сложность выбора</div>
+          </div>
+        </div>
+        <div class="slider__switcher">
+          <label for="slide0" class="slider__label">
+            <span class="slider__button btn0"></span>
+          </label>
+          <label for="slide1" class="slider__label">
+            <span class="slider__button btn1"></span>
+          </label>
+          <label for="slide2" class="slider__label">
+            <span class="slider__button btn2"></span>
+          </label>
+          <label for="slide3" class="slider__label">
+            <span class="slider__button btn3"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
